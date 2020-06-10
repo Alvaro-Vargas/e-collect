@@ -14,11 +14,18 @@
         <img src="/assets/logo.svg" alt="Logo">
       </a>
       
+      <div class="header-right">
+        <a href="/create-point">
+          <span></span>
+          Register new collection point
+        </a>
+        
+          <input type="checkbox" id="switch" name="theme" />
+          <label for="switch">Toggle</label>
+        
+      </div>
+      
 
-      <a href="/create-point">
-        <span></span>
-        Register new collection point
-      </a>
     </header>
     
     <main>
@@ -40,5 +47,6 @@
 
 {% block scripts%}
   <script src="/scripts/index.js"></script>
+  <script src="/scripts/theme.js"></script>
 {% endblock scripts%}
 
