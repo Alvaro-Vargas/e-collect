@@ -3,7 +3,7 @@
 {% set pageId = "page-search-results" %}
 
 {%block title%}
-  <title>Resultado da pesquisa</title>
+  <title>Search Results</title>
 {%endblock title%}
 
 {% block styles%}
@@ -17,7 +17,7 @@
 
     {% if total > 0 %}
       <h4>
-        <strong>{{total}} pontos </strong> encontrados
+        <strong>{{total}} collection points </strong> found
       </h4>
 
       <div class="cards">
@@ -40,7 +40,7 @@
       </div>
 
       {% else %}
-        <h4> <strong> Nenhum </strong> local encontrado</h4> <strong></strong> 
+        <h4> <strong> 0 </strong> collection points found</h4> <strong></strong> 
     {% endif %}
 
     
