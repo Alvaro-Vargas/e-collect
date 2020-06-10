@@ -48,14 +48,6 @@
   line-height: 42px;
 }
 
-#modal form label {
-  font-size: 14px;
-  line-height: 16px;
-
-  display: block;
-  margin-bottom: 8px;
-}
-
 #modal form .field {
   display: flex;
 }
@@ -78,7 +70,7 @@
   width: 72px;
   height: 72px;
 
-  background-color: var(--primary-color);
+  background-color: var(--button-color);
 
   border: 0;
 
@@ -86,7 +78,7 @@
 }
 
 #modal form button:hover {
-  background-color: #2fb85e;
+  background-color: var(--button-hover);
 }
 
 /* Modal Point Created */

@@ -14,7 +14,7 @@
 }
 
 #page-create-point header a{
-  columns: var(--title-color);
+  color: var(--header-color);
   font-weight: bold;
 
   display: flex;
@@ -33,7 +33,7 @@
 }
 
 form {
-  background-color: white;
+  background-color: var(--form-bg);
 
   margin: 80px auto;
   padding: 64px;
@@ -69,7 +69,7 @@ form legend h2{
 
 form legend span {
   font-size: 14px;
-  color: var(--title-color);
+  color: var(--header-color);
 }
 
 form .field {
@@ -86,7 +86,7 @@ form .field-group {
 
 form input,
 form select {
-  background-color: #f0f0f5;
+  background-color: var(--form-inputs);
 
   border: 0;
   padding: 16px 24px;
@@ -117,7 +117,7 @@ form button {
   width: 260px;
   height: 56px;
 
-  background-color: var(--primary-color);
+  background-color: var(--button-color);
   border-radius: 8px;
 
   color: white;
@@ -132,7 +132,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #2fb86e;
+  background-color: var(--button-hover);
 }
 
 .items-grid {
@@ -142,10 +142,10 @@ form button:hover {
 }
 
 .items-grid li{
-  background-color: #f5f5f5;
+  background-color: var(--items-bg);
   list-style: none;
 
-  border:  2px solid #f5f5f5;
+  border:  2px solid var(--items-bg);
   border-radius: 8px;
 
   height: 180px;
@@ -170,12 +170,12 @@ form button:hover {
   display: flex;
   align-items: center;
 
-  color: var(--title-color);
+  color: var(--header-color);
 }
 
 .items-grid li.selected{
-  background: #e1faec;
-  border: 2px solid #34cb79;
+  background: var(--items-selected);
+  border: 2px solid var(--items-selected-border);
 } 
 
 .items-grid li img,
