@@ -14,9 +14,15 @@ Application to keep track of **Recycling points** in the city.
 ---
 ### Demonstration
 
-**Watch it on youtube:**
+#### Watch it on youtube:
 [![Youtube Demo](./public/assets/video.png)](https://www.youtube.com/watch?v=Kef626aHbMI)
-> *Sorry, could not embbed videos in github readme.*
+
+#### Run it on your machine:
+- Clone/Download the application
+- Run: `npm start`
+- Access this url in your browser: [http://localhost:3000/](http://localhost:3000/)
+
+
 
 --- 
 ... Still working in some other functionalities (🤓) and fixing some bugs(🐛).
