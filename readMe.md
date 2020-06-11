@@ -12,6 +12,11 @@ Application to keep track of **Recycling points** in the city.
 ##### Extra features
 - Dark Mode
 ---
+### Demonstration
+
+**Watch it on youtube:**
+[![Youtube Demo](./public/assets/video.png)](https://www.youtube.com/watch?v=Kef626aHbMI)
+> *Sorry, could not embbed videos in github readme.*
 
 --- 
 ... Still working in some other functionalities (🤓) and fixing some bugs(🐛).
